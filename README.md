@@ -1,11 +1,20 @@
 <div align="center">
-
-<img width="1200" height="475" alt="GHBanner" src="" />
-
-  <h1>Built by flowless automations.</h2>
-
-  <p>THE best sandwichs in the bay area.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/14b431f4-6d76-4ab1-97a6-d031d45c9ef9
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
